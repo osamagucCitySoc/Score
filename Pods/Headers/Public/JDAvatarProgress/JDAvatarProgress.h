@@ -1,0 +1,1 @@
+../../../JDAvatarProgress/Pod/Classes/JDAvatarProgress.h

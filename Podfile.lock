@@ -1,0 +1,13 @@
+PODS:
+  - JDAvatarProgress (1.0.4)
+  - MZTimerLabel (0.5.4)
+
+DEPENDENCIES:
+  - JDAvatarProgress
+  - MZTimerLabel
+
+SPEC CHECKSUMS:
+  JDAvatarProgress: f6d5ea6b74fefd93258755ec52f466ba00b5da1a
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+
+COCOAPODS: 0.39.0
