@@ -28,7 +28,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gJc-bt-Bgx">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXx-sv-jHf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -57,15 +57,15 @@
                                 <exclude reference="UXx-sv-jHf"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="FOT-Hn-8uF"/>
+                                <exclude reference="aK1-o1-J4f"/>
+                                <exclude reference="gMC-KR-Pc2"/>
                                 <exclude reference="Gee-9p-VhH"/>
                                 <exclude reference="T8P-wU-X6d"/>
                                 <exclude reference="rS6-xb-DSf"/>
                                 <exclude reference="vvF-iU-xOH"/>
                                 <exclude reference="GLi-0x-icr"/>
                                 <exclude reference="YL3-QJ-1vz"/>
-                                <exclude reference="FOT-Hn-8uF"/>
-                                <exclude reference="aK1-o1-J4f"/>
-                                <exclude reference="gMC-KR-Pc2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -75,15 +75,15 @@
                                 <include reference="UXx-sv-jHf"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="FOT-Hn-8uF"/>
+                                <include reference="aK1-o1-J4f"/>
+                                <include reference="gMC-KR-Pc2"/>
                                 <include reference="Gee-9p-VhH"/>
                                 <include reference="T8P-wU-X6d"/>
                                 <include reference="rS6-xb-DSf"/>
                                 <include reference="vvF-iU-xOH"/>
                                 <include reference="GLi-0x-icr"/>
                                 <include reference="YL3-QJ-1vz"/>
-                                <include reference="FOT-Hn-8uF"/>
-                                <include reference="aK1-o1-J4f"/>
-                                <include reference="gMC-KR-Pc2"/>
                             </mask>
                         </variation>
                     </view>
@@ -224,7 +224,7 @@
                                     <constraint firstAttribute="width" constant="64" id="IZN-Rt-zxT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="IZN-Rt-zxT"/>
@@ -243,7 +243,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="f1t-E8-ILG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="WgI-fP-h0a"/>
