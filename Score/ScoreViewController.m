@@ -147,7 +147,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
-    
+    [[cell textLabel]setText:[[scoresDataSource objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]];
     
     return cell;
 }
