@@ -10,6 +10,7 @@
 		D4592DA0C5CA42A2A0A21C34 /* libPods-Score.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A55B2CB874F0521DF8A693D /* libPods-Score.a */; };
 		E88E10EB1CB53F6500F06F85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88E10EA1CB53F6500F06F85 /* QuartzCore.framework */; };
 		E88E10EE1CB5411F00F06F85 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88E10ED1CB5411F00F06F85 /* ScoreViewController.m */; };
+		E88E10F01CB6401700F06F85 /* female-placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88E10EF1CB6401700F06F85 /* female-placeholder.jpg */; };
 		E8C5A2F41CB4EC9B00C6FEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C5A2F31CB4EC9B00C6FEA7 /* main.m */; };
 		E8C5A2F71CB4EC9B00C6FEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C5A2F61CB4EC9B00C6FEA7 /* AppDelegate.m */; };
 		E8C5A2FA1CB4EC9B00C6FEA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C5A2F91CB4EC9B00C6FEA7 /* ViewController.m */; };
@@ -26,6 +27,7 @@
 		E88E10EA1CB53F6500F06F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E88E10EC1CB5411F00F06F85 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
 		E88E10ED1CB5411F00F06F85 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		E88E10EF1CB6401700F06F85 /* female-placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "female-placeholder.jpg"; sourceTree = "<group>"; };
 		E8C5A2EF1CB4EC9B00C6FEA7 /* Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Score.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C5A2F31CB4EC9B00C6FEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8C5A2F51CB4EC9B00C6FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E88E10F11CB6401C00F06F85 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E88E10EF1CB6401700F06F85 /* female-placeholder.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		E8C5A2E61CB4EC9B00C6FEA7 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		E8C5A2F11CB4EC9B00C6FEA7 /* Score */ = {
 			isa = PBXGroup;
 			children = (
+				E88E10F11CB6401C00F06F85 /* images */,
 				E8C5A2F51CB4EC9B00C6FEA7 /* AppDelegate.h */,
 				E8C5A2F61CB4EC9B00C6FEA7 /* AppDelegate.m */,
 				E8C5A2F81CB4EC9B00C6FEA7 /* ViewController.h */,
@@ -178,6 +189,7 @@
 				E8C5A3051CB4EC9B00C6FEA7 /* LaunchScreen.storyboard in Resources */,
 				E8C5A3021CB4EC9B00C6FEA7 /* Assets.xcassets in Resources */,
 				E8C5A2FD1CB4EC9B00C6FEA7 /* Main.storyboard in Resources */,
+				E88E10F01CB6401700F06F85 /* female-placeholder.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
