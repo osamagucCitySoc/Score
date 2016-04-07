@@ -124,6 +124,18 @@
     return  [[scoresDataSource objectAtIndex:section] count];
 }
 
+-(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if(section == 0)
+    {
+        return @"توقاعتي السابقة للمباراة";
+    }else if(section == 1)
+    {
+        return  @"أكبر ٥ توقعات من كل المشاركين";
+    }
+    return @"";
+}
+
 -(UITableViewCell*)tableView:(UITableView *)tableVieww cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
